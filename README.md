@@ -1,8 +1,11 @@
 # session-replay
-We’re thrilled to announce that Session Replay is now live on [Scrapeless](https://www.scrapeless.com/en?utm_source=official&utm_medium=blog&utmcampaign=session-replay)! This groundbreaking feature unifies Live View, Session Inspector, and Session Recording into one seamless experience—offering a cutting-edge visual analysis capability for your browser automation workflows.
+We’re thrilled to announce that Session Replay is now live on [Scrapeless](https://www.scrapeless.com/en?utm_source=official&utm_medium=blog&utmcampaign=session-replay)! This groundbreaking feature unifies Live View, and Session Recording into one seamless experience—offering a cutting-edge visual analysis capability for your browser automation workflows.
 
 ---
 ## What Is Session Replay?
+
+![Session Replay](https://assets.scrapeless.com/prod/posts/session-replay/046b4678108033022333c93d09daf25a.gif)
+
 Session Replay is a video-like playback of user sessions, constructed using smart DOM snapshot technology rather than traditional screen recording. It captures your session at the DOM level—based on the browser's internal HTML structure—so you can accurately revisit every interaction, including page loads, refreshes, and navigations.
 
 Unlike conventional video recordings, Scrapeless leverages intelligent DOM snapshots to capture:
@@ -33,19 +36,12 @@ During data extraction and automation testing, developers often face the "black 
 ---
 ## Features Breakdown
 ### 🔍 Live Session Management
-👍 **Interactive Monitoring Dashboard**. Instantly view any running session with:
-  - Session Info – ID, runtime, and resource usage
-  - Live Preview – Real-time browser view
-  - Control Toolbar – Built-in debugging tools
-
-👍 **Easy Session Sharing in Three Steps**
-1. Locate the target session from the session list
-2. Click the Copy Link button
-3. Share it with your team members for collaborative debugging
-
-👍 **Human Intervention Made Simple**. When unexpected behavior occurs:
-- Instantly stop the session via the Stop button
-- All interventions are logged and fully replayable
+👍 **Interactive monitoring dashboard**. Instantly view any running session, including:
+- Locate the target session from the session list
+- Session information – ID, uptime and resource usage
+- Live preview – live browser view
+- Instantly stop the session with the stop button
+- Adjust the content of the session in the playground
 
 ---
 ### 📼 Historical Session Replay
@@ -56,11 +52,12 @@ During data extraction and automation testing, developers often face the "black 
 - Enable Web Record to activate replay
 - Click any session log to enter the detail view
 - Watch auto-generated recordings
+- Support full screen playback
 - Use the playback controller to:
   - Play / Pause
   - Scrub timeline
   - Adjust speed (1x, 2x, 4x, 8x)
-> ⚠️ Session history is stored for 7 days. Older records are auto-deleted.
+> ⚠️ Session history is stored for 15 days. Older records are auto-deleted.
 4. **Smart Status Indicators**
 - ✅ Successful sessions: Green label + “Completed”. You can play the recording in session history.
 - ❌ Failed sessions: Red label + “Error” status
@@ -71,11 +68,10 @@ During data extraction and automation testing, developers often face the "black 
 
 ---
 ## Experience the Power of Session Replay Today
-**Scrapeless Session Replay** transforms abstract automation into a fully visualized process by combining DOM-level recording with multi-dimensional data tracking. It empowers developers and teams to:
-- Quickly reproduce complex issues such as dynamic content loading errors or anti-bot triggers
-- Fine-tune automation strategies by adjusting request rates, interaction patterns, or fingerprinting parameters
-- Streamline collaboration with shareable session replays that reduce communication overhead
+**Scrapeless Session Replay** transforms the abstract script execution process into a visual process, helping developers achieve the following in complex scenarios:
+- Rapidly reproduce problems: such as dynamic content loading failure, anti-crawling mechanism triggering, etc.
+- Accurate optimization strategy: Targetedly adjust request frequency, interaction logic or fingerprint parameters based on video feedback
 
 From eCommerce scraping to social media monitoring and search engine data extraction, this tool is indispensable for debugging and analysis in high-stakes environments.
 
-👉 Visit our [**Documentation Center**](https://docs.scrapeless.com/en/scraping-browser/quickstart/introduction/) to explore advanced usage, or contact our technical consultants for a personalized demo.
+👉 Visit our [**Documentation Center**](https://docs.scrapeless.com/en/scraping-browser/quickstart/introduction/) to explore advanced usage, or contact our technical consultants for more usage details.
